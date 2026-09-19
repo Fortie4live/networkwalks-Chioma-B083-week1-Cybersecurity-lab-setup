@@ -201,7 +201,7 @@ DHCP:         Disabled
 IPv6:         Disabled
 ```
 
-![](NAT Networks.png)
+![]()
 
 The DHCP service was disabled because Kali Linux was configured with a static IP address.
 
