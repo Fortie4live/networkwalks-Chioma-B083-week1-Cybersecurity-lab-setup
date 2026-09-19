@@ -200,8 +200,7 @@ IPv4 Prefix:  10.0.0.0/24
 DHCP:         Disabled
 IPv6:         Disabled
 ```
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-![](NAT Networks.png)
+![](NAT-Networks.png)
 
 The DHCP service was disabled because Kali Linux was configured with a static IP address.
 
@@ -225,8 +224,7 @@ The first network adapter was configured as:
 
 The adapter was configured with the Intel PRO/1000 MT Desktop (82540EM) virtual network adapter.
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-![](kali interfa.png)
+![](Kali-Interface.png)
 
 ---
 ## Step 5. Configure the Kali Linux Network
@@ -239,8 +237,8 @@ Subnet Mask:    255.255.255.0
 Gateway:        10.0.0.1
 DNS:            8.8.8.8
 ```
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-![](Editing Wired l.png)
+
+![](Editing-Wired-l.png)
 
 The final ip -4 addr verification showed:
 
@@ -248,6 +246,8 @@ The final ip -4 addr verification showed:
 eth0
 inet 10.0.0.2/24
 ```
+
+![](ip-addr.png)
 
 The routing table showed:
 
@@ -262,8 +262,7 @@ The DNS configuration showed:
 nameserver 8.8.8.8
 ```
 
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-![](ping -c 410.0.0.1 8.8.8.8.png)
+![](ping-c-4-10.0.0.1-8.8.8.8.png)
 
 ---
 
@@ -291,9 +290,7 @@ Cybersecurity-Internship on /downloads type vboxsf (rw,nodev,relatime)
 
 The directory was also accessible from Kali and contained test files and the project documentation.
 
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-![](Shared Folder.png)
-![](ls ld la.png)
+![](ls-ld-la.png)
 
 ---
 
@@ -331,8 +328,8 @@ Clean Kali - Network Setup
 The snapshot represents the known-good baseline of the cybersecurity laboratory.
 This provides a recovery point before future cybersecurity exercises or experiments are performed.
 
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-![](Snapshots.png)
+![](Snapshot.png)
+
 ---
 
 # Lab Verification
@@ -440,8 +437,7 @@ DNS resolution was subsequently confirmed using: `nslookup google.com` and `ping
 
 Both tests were successful.
 
-**xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx**
-![](ping -c google.png)
+![](ping-c-google.png)
 
 ---
 
@@ -476,9 +472,7 @@ Because guest-to-host drag-and-drop remained unreliable, the configured VirtualB
 
 The issue was documented rather than changing the working network configuration or performing unnecessary reinstallation.
 
-**xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx**
-![](dnd error.png)
+![](Dnd-Error.png)
 
 ---
 
