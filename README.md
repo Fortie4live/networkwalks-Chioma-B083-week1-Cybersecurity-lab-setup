@@ -201,6 +201,8 @@ DHCP:         Disabled
 IPv6:         Disabled
 ```
 
+![](NAT Networks.png)
+
 The DHCP service was disabled because Kali Linux was configured with a static IP address.
 
 The NAT Network provides a private virtual network where multiple virtual machines can communicate with one another while allowing outbound Internet connectivity through NAT.
